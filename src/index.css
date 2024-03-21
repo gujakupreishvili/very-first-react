@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +15,173 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.first-header-p{
+  font-size: 36px;
+  color: black;
+}
+.second-header-p{
+  font-size: 15px;
+}
+.second-header-p span{
+  background-color: black;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 3px;
+  color: white;
+  margin-left: 3px;
+}
+.flex{
+  display: flex;
+  gap: 50px;
+  margin-top: 20px;
+  
+}
+.column{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.column2{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.read-more{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+.span-comment{
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 30px;
+  background-color: black;
+  color: white;
+}
+.container{
+  width: 100%;
+  background-color: white;
+}
+.container img{
+  width: 100%;
+}
+.read-more-btn{
+  width: 100px;
+  height: 30px;
+  border: 1px solid grey;
+}
+.shortP
+{
+  font-size: 20px;
+  color: black;
+}
+.shortP span{
+  color: grey;
+  font-size: 17px;
+}
+.box-1{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  background-color: white;
+}
+.box-2{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin-top: 30px;
+}
+.box-2 h1{
+  padding: 10px 10px ;
+  background-color: rgb(197, 197, 197);
+  font-size: 20px;
+}
+.box-2-first-div{
+  display: flex;
+  cursor: pointer;
+}
+.box-2-first-div:hover{
+  background-color: gray;
+}
+.box-2-first-div img{
+  width: 60px;
+  height: 60px;
+}
+.colum-post{
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding-left: 10px;
+}
+.box-3{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin-top: 30px;
+}
+.box-3 h1{
+  padding: 10px 10px ;
+  background-color: rgb(197, 197, 197);
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.box-3 div{
+ display: flex;
+ flex-wrap: wrap;
+ gap: 10px;
+}
+.travel{
+  width: 60px;
+  height: 20px;
+  border: none;
+  background-color: black;
+  color: white;
+
+}
+.other{
+  width: 60px;
+  height: 20px;
+  border: none;
+  background-color: gray;
+  color: white;
+}
+footer{
+  width: 100%;
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  padding: 35px 15px;
+  gap: 20px;
+  margin-top: 30px;
+}
+.previous{
+  width: 90px;
+  height: 30px;
+  background-color: black;
+  opacity: 0.6;
+  color: white;
+  border: none;
+  margin-right: 5px;
+}
+.next{
+  width: 90px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+footer p{
+  color: white;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+footer span a{
+  color: white;
 }
